@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51D8EF67-FD4F-43F4-98E7-4936EF34DC5A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>uasvb</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>uasvb.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>uasvb.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.Designer.vb">
+      <DependentUpon>admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="keuangan.Designer.vb">
+      <DependentUpon>keuangan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="keuangan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guru.Designer.vb">
+      <DependentUpon>guru.vb</DependentUpon>
+    </Compile>
+    <Compile Include="guru.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_jadwal.Designer.vb">
+      <DependentUpon>tbl_jadwal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_jadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_jenis_pembayaran.Designer.vb">
+      <DependentUpon>tbl_jenis_pembayaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_jenis_pembayaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_jurusan.Designer.vb">
+      <DependentUpon>tbl_jurusan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_jurusan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_kurikulum.Designer.vb">
+      <DependentUpon>tbl_kurikulum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_kurikulum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_laporan_nilai.Designer.vb">
+      <DependentUpon>tbl_laporan_nilai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_laporan_nilai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_mapel.Designer.vb">
+      <DependentUpon>tbl_mapel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_mapel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_ruangan.Designer.vb">
+      <DependentUpon>tbl_ruangan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_ruangan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_siswa.Designer.vb">
+      <DependentUpon>tbl_siswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_siswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_user.Designer.vb">
+      <DependentUpon>tbl_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tbl_walikelas.Designer.vb">
+      <DependentUpon>tbl_walikelas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_walikelas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wali.Designer.vb">
+      <DependentUpon>wali.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wali.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_jadwal.resx">
+      <DependentUpon>tbl_jadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_jenis_pembayaran.resx">
+      <DependentUpon>tbl_jenis_pembayaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_jurusan.resx">
+      <DependentUpon>tbl_jurusan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_kurikulum.resx">
+      <DependentUpon>tbl_kurikulum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_laporan_nilai.resx">
+      <DependentUpon>tbl_laporan_nilai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_mapel.resx">
+      <DependentUpon>tbl_mapel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_ruangan.resx">
+      <DependentUpon>tbl_ruangan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_siswa.resx">
+      <DependentUpon>tbl_siswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_user.resx">
+      <DependentUpon>tbl_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tbl_walikelas.resx">
+      <DependentUpon>tbl_walikelas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64495.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

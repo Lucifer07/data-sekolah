@@ -1,0 +1,10 @@
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\bin\Release\uasvb.exe
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\bin\Release\uasvb.pdb
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\bin\Release\uasvb.xml
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\obj\x86\Release\WindowsApplication1.admin.resources
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\obj\x86\Release\WindowsApplication1.login.resources
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\obj\x86\Release\WindowsApplication1.Resources.resources
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\obj\x86\Release\uasvb.vbproj.GenerateResource.Cache
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\obj\x86\Release\uasvb.exe
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\obj\x86\Release\uasvb.xml
+C:\Users\USER\documents\visual studio 2010\Projects\uasvb\uasvb\obj\x86\Release\uasvb.pdb
